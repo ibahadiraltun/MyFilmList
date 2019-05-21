@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DC89442101D3AB3DA6DB96A /* Pods_MFL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA32009BFFBAA8ED61C0B57A /* Pods_MFL.framework */; };
+		D02FE51821F61B27006FFB58 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02FE51721F61B27006FFB58 /* HomeViewController.swift */; };
 		D057C95E21F6091B001141EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057C95D21F6091B001141EB /* AppDelegate.swift */; };
-		D057C96021F6091B001141EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057C95F21F6091B001141EB /* ViewController.swift */; };
+		D057C96021F6091B001141EB /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057C95F21F6091B001141EB /* MainPageViewController.swift */; };
 		D057C96321F6091B001141EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D057C96121F6091B001141EB /* Main.storyboard */; };
 		D057C96521F6091F001141EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D057C96421F6091F001141EB /* Assets.xcassets */; };
 		D057C96821F6091F001141EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D057C96621F6091F001141EB /* LaunchScreen.storyboard */; };
+		D057C97021F60A09001141EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D057C96F21F60A09001141EB /* GoogleService-Info.plist */; };
+		D057C97821F61403001141EB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057C97721F61403001141EB /* RegisterViewController.swift */; };
+		D057C97A21F61419001141EB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057C97921F61419001141EB /* ForgotPasswordViewController.swift */; };
+		D0A3341121F9237F0060A5E8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3341021F9237F0060A5E8 /* ProfileViewController.swift */; };
+		D0A3341321F92B840060A5E8 /* FilmListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3341221F92B840060A5E8 /* FilmListViewController.swift */; };
+		D0A3341521F942320060A5E8 /* OtherFilmPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3341421F942320060A5E8 /* OtherFilmPageViewController.swift */; };
+		D0B0023621F764A100D384C9 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0023521F764A100D384C9 /* FilmModel.swift */; };
+		D0B0023821F76C5E00D384C9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0023721F76C5E00D384C9 /* TableViewCell.swift */; };
+		D0B0024221F7939200D384C9 /* FilmPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0024121F7939200D384C9 /* FilmPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B93ACAC83BBF83B79DDF87A /* Pods-MFL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFL.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFL/Pods-MFL.release.xcconfig"; sourceTree = "<group>"; };
+		7E2E05DF6E57BB0700EA8479 /* Pods-MFL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFL/Pods-MFL.debug.xcconfig"; sourceTree = "<group>"; };
+		D02FE51721F61B27006FFB58 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D057C95A21F6091A001141EB /* MFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D057C95D21F6091B001141EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D057C95F21F6091B001141EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D057C95F21F6091B001141EB /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		D057C96221F6091B001141EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D057C96421F6091F001141EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D057C96721F6091F001141EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D057C96921F6091F001141EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D057C96F21F60A09001141EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D057C97721F61403001141EB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D057C97921F61419001141EB /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		D0A3341021F9237F0060A5E8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D0A3341221F92B840060A5E8 /* FilmListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewController.swift; sourceTree = "<group>"; };
+		D0A3341421F942320060A5E8 /* OtherFilmPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFilmPageViewController.swift; sourceTree = "<group>"; };
+		D0B0023521F764A100D384C9 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		D0B0023721F76C5E00D384C9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D0B0024121F7939200D384C9 /* FilmPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmPageViewController.swift; sourceTree = "<group>"; };
+		FA32009BFFBAA8ED61C0B57A /* Pods_MFL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC89442101D3AB3DA6DB96A /* Pods_MFL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A238D25B641F2F5653BE3A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA32009BFFBAA8ED61C0B57A /* Pods_MFL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A318C01FCF1F12C114435287 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E2E05DF6E57BB0700EA8479 /* Pods-MFL.debug.xcconfig */,
+				2B93ACAC83BBF83B79DDF87A /* Pods-MFL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D057C95121F6091A001141EB = {
 			isa = PBXGroup;
 			children = (
 				D057C95C21F6091B001141EB /* MFL */,
 				D057C95B21F6091A001141EB /* Products */,
+				A318C01FCF1F12C114435287 /* Pods */,
+				A238D25B641F2F5653BE3A12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,56 @@
 		D057C95C21F6091B001141EB /* MFL */ = {
 			isa = PBXGroup;
 			children = (
-				D057C95D21F6091B001141EB /* AppDelegate.swift */,
-				D057C95F21F6091B001141EB /* ViewController.swift */,
-				D057C96121F6091B001141EB /* Main.storyboard */,
-				D057C96421F6091F001141EB /* Assets.xcassets */,
-				D057C96621F6091F001141EB /* LaunchScreen.storyboard */,
+				D0B0023B21F7872200D384C9 /* Model */,
+				D0B0023D21F7873D00D384C9 /* View */,
+				D0B0023E21F78D0A00D384C9 /* Controller */,
 				D057C96921F6091F001141EB /* Info.plist */,
+				D0B0024021F78D8700D384C9 /* Supported Files */,
 			);
 			path = MFL;
+			sourceTree = "<group>";
+		};
+		D0B0023B21F7872200D384C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0023521F764A100D384C9 /* FilmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0B0023D21F7873D00D384C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0023721F76C5E00D384C9 /* TableViewCell.swift */,
+				D057C96121F6091B001141EB /* Main.storyboard */,
+				D057C96621F6091F001141EB /* LaunchScreen.storyboard */,
+				D057C96421F6091F001141EB /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0B0023E21F78D0A00D384C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D057C95D21F6091B001141EB /* AppDelegate.swift */,
+				D057C95F21F6091B001141EB /* MainPageViewController.swift */,
+				D057C97721F61403001141EB /* RegisterViewController.swift */,
+				D057C97921F61419001141EB /* ForgotPasswordViewController.swift */,
+				D02FE51721F61B27006FFB58 /* HomeViewController.swift */,
+				D0B0024121F7939200D384C9 /* FilmPageViewController.swift */,
+				D0A3341021F9237F0060A5E8 /* ProfileViewController.swift */,
+				D0A3341221F92B840060A5E8 /* FilmListViewController.swift */,
+				D0A3341421F942320060A5E8 /* OtherFilmPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0B0024021F78D8700D384C9 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				D057C96F21F60A09001141EB /* GoogleService-Info.plist */,
+			);
+			path = "Supported Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D057C96C21F6091F001141EB /* Build configuration list for PBXNativeTarget "MFL" */;
 			buildPhases = (
+				7587060172A22AC57C575110 /* [CP] Check Pods Manifest.lock */,
 				D057C95621F6091A001141EB /* Sources */,
 				D057C95721F6091A001141EB /* Frameworks */,
 				D057C95821F6091A001141EB /* Resources */,
+				E38AE9E41FF59AC9D77067F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D057C97021F60A09001141EB /* GoogleService-Info.plist in Resources */,
 				D057C96821F6091F001141EB /* LaunchScreen.storyboard in Resources */,
 				D057C96521F6091F001141EB /* Assets.xcassets in Resources */,
 				D057C96321F6091B001141EB /* Main.storyboard in Resources */,
@@ -130,12 +219,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7587060172A22AC57C575110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MFL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38AE9E41FF59AC9D77067F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MFL/Pods-MFL-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFL/Pods-MFL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D057C95621F6091A001141EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D057C96021F6091B001141EB /* ViewController.swift in Sources */,
+				D0A3341521F942320060A5E8 /* OtherFilmPageViewController.swift in Sources */,
+				D02FE51821F61B27006FFB58 /* HomeViewController.swift in Sources */,
+				D057C97A21F61419001141EB /* ForgotPasswordViewController.swift in Sources */,
+				D0A3341321F92B840060A5E8 /* FilmListViewController.swift in Sources */,
+				D057C97821F61403001141EB /* RegisterViewController.swift in Sources */,
+				D0B0024221F7939200D384C9 /* FilmPageViewController.swift in Sources */,
+				D0B0023621F764A100D384C9 /* FilmModel.swift in Sources */,
+				D057C96021F6091B001141EB /* MainPageViewController.swift in Sources */,
+				D0A3341121F9237F0060A5E8 /* ProfileViewController.swift in Sources */,
+				D0B0023821F76C5E00D384C9 /* TableViewCell.swift in Sources */,
 				D057C95E21F6091B001141EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,37 +431,45 @@
 		};
 		D057C96D21F6091F001141EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2E05DF6E57BB0700EA8479 /* Pods-MFL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = W4G6B6983D;
 				INFOPLIST_FILE = MFL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibahadiraltun.MFL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "My Film List App Store Distribution";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D057C96E21F6091F001141EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B93ACAC83BBF83B79DDF87A /* Pods-MFL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = W4G6B6983D;
 				INFOPLIST_FILE = MFL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibahadiraltun.MFL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "My Film List App Store Distribution";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
